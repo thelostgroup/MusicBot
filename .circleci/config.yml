@@ -22,8 +22,7 @@ jobs:
     - run: mkdir /tmp/artifacts
     - run: mvn package -DoutputDirectory=/tmp/artifacts
     - store_artifacts:
-        paths: 
-        - /tmp/artifacts
+       paths: /tmp/artifacts
 workflows:
   version: 2
   workflow:
