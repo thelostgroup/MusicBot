@@ -21,7 +21,7 @@ jobs:
     - run: mvn integration-test
     - run: mvn package
     - store_artifacts:
-        paths: ~
+        paths: ~/artifacts
 workflows:
   version: 2
   workflow:
